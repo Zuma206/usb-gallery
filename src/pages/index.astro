@@ -1,5 +1,6 @@
 ---
 import { getConfig } from "../lib/config";
+import Gallery from "../Gallery.astro";
 const config = getConfig();
 ---
 
@@ -19,5 +20,7 @@ const config = getConfig();
       }
     </style>
   </head>
-  <body></body>
+  <body>
+    <Gallery />
+  </body>
 </html>

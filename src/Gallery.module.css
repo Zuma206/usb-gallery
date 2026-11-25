@@ -1,0 +1,18 @@
+.container {
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+}
+
+.wall,
+.floor {
+  width: 100vw;
+}
+
+.wall {
+  flex: 2;
+}
+
+.floor {
+  flex: 1;
+}

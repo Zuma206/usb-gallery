@@ -1,0 +1,16 @@
+---
+import styles from "./Gallery.module.css";
+import { getConfig } from "./lib/config";
+const config = getConfig();
+---
+
+<div class={styles.container}>
+  <div
+    class={styles.wall}
+    style={{ background: `url("${config.theme.wall}")` }}
+  ></div>
+  <div
+    class={styles.floor}
+    style={{ background: `url("${config.theme.floor}")` }}
+  ></div>
+</div>
