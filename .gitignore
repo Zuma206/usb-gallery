@@ -1,3 +1,6 @@
+# usb config directory
+src/config
+
 # build output
 dist/
 # generated types
